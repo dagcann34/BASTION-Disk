@@ -38,7 +38,7 @@
 
 ## Kurulum
 
-1. [Releases](https://github.com/dagcann34/BASTION-Disk/releases/latest) sayfasından **`BASTION Disk 1.4.0.dmg`** (sürükle-bırak) ya da **`.pkg`** (kurulum sihirbazı) indir.
+1. [Releases](https://github.com/dagcann34/BASTION-Disk/releases/latest) sayfasından **`BASTION.Disk.1.4.0.dmg`** (sürükle-bırak) ya da **`BASTION.Disk.1.4.0.pkg`** (kurulum sihirbazı) indir.
 2. DMG: aç, **BASTION Disk**'i **Applications** klasörüne sürükle. PKG: aç, adımları izle.
 3. **İlk açılış (macOS 15 ve sonrası):** Uygulama henüz Apple notarization'dan geçmedi; macOS ilk seferde engeller.
    - Uyarıda **Bitti**'ye bas.
@@ -59,15 +59,15 @@ Doğrulama bu Mac'te yapılır; internet gerekmez, hiçbir bilgi gönderilmez.
 
 ## Bütünlük doğrulama
 
-İndirdiğin dosyaların değişmediğini Terminal'de doğrulayabilirsin (`SHA256SUMS` dosyası Releases'ta):
+İndirdiğin dosyaların değişmediğini Terminal'de doğrulayabilirsin (`SHA256SUMS` dosyasını iki kurulum dosyasıyla aynı klasöre indir):
 
 ```
 shasum -a 256 -c SHA256SUMS
 ```
 
 ```
-91830bf1c9ec45f251aaf806338ecdcfd08d8ec02655d3327f6b0ff290a5c414  BASTION Disk 1.4.0.pkg
-e716eb7e8c2d5df9d24a3e5eee63b59d3a2080f4314be5815b62aeaf68b2deb2  BASTION Disk 1.4.0.dmg
+e716eb7e8c2d5df9d24a3e5eee63b59d3a2080f4314be5815b62aeaf68b2deb2  BASTION.Disk.1.4.0.dmg
+91830bf1c9ec45f251aaf806338ecdcfd08d8ec02655d3327f6b0ff290a5c414  BASTION.Disk.1.4.0.pkg
 ```
 
 ## Güvenlik notları
@@ -78,7 +78,7 @@ e716eb7e8c2d5df9d24a3e5eee63b59d3a2080f4314be5815b62aeaf68b2deb2  BASTION Disk 1
 
 ## Kaldırma
 
-Releases'taki **`BASTION Disk'i Kaldır.command`** dosyasını çalıştır: uygulamayı Çöp'e taşır, açılış kaydını ve ayarları siler.
+Releases'taki **`BASTION.Disk.i.Kaldir.command`** dosyasını çalıştır: uygulamayı Çöp'e taşır, açılış kaydını ve ayarları siler.
 
 ---
 
