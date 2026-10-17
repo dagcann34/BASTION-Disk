@@ -3,6 +3,8 @@
 <h1 align="center">BASTION Disk</h1>
 <p align="center"><b>Diskin dolmadan önce gör.</b><br>Mac'inin istediğin kenarında duran taktik disk paneli.</p>
 
+<p align="center"><b>Türkçe</b> · <a href="README.en.md">English</a></p>
+
 <p align="center">
   <a href="https://github.com/dagcann34/BASTION-Disk/releases/latest"><b>⬇️ Ücretsiz indir (macOS 14+, Apple Silicon)</b></a>
   &nbsp;·&nbsp; 🔑 Pro lisans: <a href="https://dagcannural.com">dagcannural.com</a> · Instagram <a href="https://instagram.com/instahaber.io">@instahaber.io</a>
