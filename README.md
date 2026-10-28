@@ -40,7 +40,7 @@ Pro özellikler, Mac App Store'da ücretsiz indirilen ayrı uygulama **BASTION D
 Satın alma ve geri yükleme Apple üzerinden yapılır (**Unlock Pro…** › **Restore Purchases**). Abonelik değildir; aynı Apple hesabındaki tüm Mac'lerinde geçerlidir.
 ## Kurulum
 
-1. [Releases](https://github.com/dagcann34/BASTION-Disk/releases/latest) sayfasından **`BASTION.Disk.1.4.0.dmg`** (sürükle-bırak) ya da **`BASTION.Disk.1.4.0.pkg`** (kurulum sihirbazı) indir.
+1. [Releases](https://github.com/dagcann34/BASTION-Disk/releases/latest) sayfasından **`BASTION.Disk.1.4.1.dmg`** (sürükle-bırak) ya da **`BASTION.Disk.1.4.1.pkg`** (kurulum sihirbazı) indir.
 2. DMG: aç, **BASTION Disk**'i **Applications** klasörüne sürükle. PKG: aç, adımları izle.
 3. **İlk açılış (macOS 15 ve sonrası):** Uygulama henüz Apple notarization'dan geçmedi; macOS ilk seferde engeller.
    - Uyarıda **Bitti**'ye bas.
@@ -60,8 +60,8 @@ shasum -a 256 -c SHA256SUMS
 ```
 
 ```
-e716eb7e8c2d5df9d24a3e5eee63b59d3a2080f4314be5815b62aeaf68b2deb2  BASTION.Disk.1.4.0.dmg
-91830bf1c9ec45f251aaf806338ecdcfd08d8ec02655d3327f6b0ff290a5c414  BASTION.Disk.1.4.0.pkg
+a8a4bbb9577105edd56b2edae36c4679cb52655bab1cb4dced39331bc3392390  BASTION.Disk.1.4.1.dmg
+1a08c5d34197dfc33b25c72dd3ad1672172b1117bb936f215c2f72f34a66d881  BASTION.Disk.1.4.1.pkg
 ```
 
 ## Güvenlik notları

@@ -42,7 +42,7 @@ Pro features unlock **inside** **BASTION Disk Pro**, a separate app that is a fr
 Purchases and restores are handled by Apple (**Unlock Pro…** › **Restore Purchases**). It is not a subscription and works on all your Macs signed in with the same Apple Account.
 ## Installation
 
-1. From the [Releases](https://github.com/dagcann34/BASTION-Disk/releases/latest) page, download **`BASTION.Disk.1.4.0.dmg`** (drag and drop) or **`BASTION.Disk.1.4.0.pkg`** (installer wizard).
+1. From the [Releases](https://github.com/dagcann34/BASTION-Disk/releases/latest) page, download **`BASTION.Disk.1.4.1.dmg`** (drag and drop) or **`BASTION.Disk.1.4.1.pkg`** (installer wizard).
 2. DMG: open it and drag **BASTION Disk** into the **Applications** folder. PKG: open it and follow the steps.
 3. **First launch (macOS 15 and later):** The app has not been through Apple notarization yet, so macOS blocks it the first time.
    - Click **Done** on the warning.
@@ -62,8 +62,8 @@ shasum -a 256 -c SHA256SUMS
 ```
 
 ```
-e716eb7e8c2d5df9d24a3e5eee63b59d3a2080f4314be5815b62aeaf68b2deb2  BASTION.Disk.1.4.0.dmg
-91830bf1c9ec45f251aaf806338ecdcfd08d8ec02655d3327f6b0ff290a5c414  BASTION.Disk.1.4.0.pkg
+a8a4bbb9577105edd56b2edae36c4679cb52655bab1cb4dced39331bc3392390  BASTION.Disk.1.4.1.dmg
+1a08c5d34197dfc33b25c72dd3ad1672172b1117bb936f215c2f72f34a66d881  BASTION.Disk.1.4.1.pkg
 ```
 
 ## Security notes
