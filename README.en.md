@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/dagcann34/BASTION-Disk/releases/latest"><b>⬇️ Free download (macOS 14+, Apple Silicon)</b></a>
-  &nbsp;·&nbsp; 🔑 Pro license: <a href="https://dagcannural.com">dagcannural.com</a> · Instagram <a href="https://instagram.com/instahaber.io">@instahaber.io</a>
+  &nbsp;·&nbsp; ⭐ Pro: inside the Mac App Store version
 </p>
 
 <p align="center"><img src="img/kapak.png" width="420" alt="BASTION Disk cover"></p>
@@ -21,25 +21,25 @@
 - **CLEAN** — Move to Trash (undoable), or delete permanently with Pro. Core macOS folders are protected, sensitive locations get an extra warning, and every permanent action asks for confirmation.
 - **FOUR EDGES, ONE PANEL** — The panel sits on the bottom, top, left or right edge; other windows (maximized ones included) snap up to its edge.
 - **39 THEMES, 7 FAMILIES** — Pick your own fonts and backdrop, or use your own image.
-- **NO NETWORK, NO TELEMETRY** — The app never connects to any server. Even the license is verified offline, on this Mac.
+- **NO NETWORK, NO TELEMETRY** — The app never connects to any server.
 
 <p align="center"><img src="img/dort-kenar.png" width="380" alt="Four edges"> <img src="img/temalar.png" width="380" alt="Themes"></p>
 
 ## Free and Pro
 
-| | Free | Pro — lifetime **1,000 TRY** |
+The **BASTION Disk** you download here is **free**. License keys are no longer sold; the "PRO · 1.000 TL" link in the app is no longer used.
+
+Pro features unlock **inside** **BASTION Disk Pro**, a separate app that is a free download on the Mac App Store, with a one-time In-App Purchase (the App Store version is being prepared for release):
+
+| BASTION Disk Pro (Mac App Store) | Free | Pro — In-App Purchase, one-time |
 |---|---|---|
-| Free-space gauge, browser | ✓ | ✓ |
-| Move to Trash, empty Trash | ✓ | ✓ |
-| 4 edges + window snapping | ✓ | ✓ |
-| Themes | 4 | 39 |
-| Permanent delete, empty folder, admin delete | — | ✓ |
-| Xcode simulator cleanup | — | ✓ |
-| Fonts, all backdrops, your own image | — | ✓ |
-| 1.x updates | ✓ | ✓ |
+| Free-space gauge, folder explorer, Move to Trash | ✓ | ✓ |
+| Screen-edge panel, menu bar counter | ✓ | ✓ |
+| Watched folders, size history, "what grew" | — | ✓ |
+| Low-space and growth alerts | — | ✓ |
+| All themes, fonts, backdrops and your own image | — | ✓ |
 
-The version you download is the **free version**. Pro features unlock in the same app with a license key, so there is nothing to re-download.
-
+Purchases and restores are handled by Apple (**Unlock Pro…** › **Restore Purchases**). It is not a subscription and works on all your Macs signed in with the same Apple Account.
 ## Installation
 
 1. From the [Releases](https://github.com/dagcann34/BASTION-Disk/releases/latest) page, download **`BASTION.Disk.1.4.0.dmg`** (drag and drop) or **`BASTION.Disk.1.4.0.pkg`** (installer wizard).
@@ -52,14 +52,6 @@ The version you download is the **free version**. Pro features unlock in the sam
 4. **Permissions (once):** System Settings › Privacy & Security:
    - **Accessibility** → turn on BASTION Disk (for window snapping).
    - **Full Disk Access** → turn on BASTION Disk (so you are not asked folder by folder).
-
-## Activating your Pro license
-
-1. Copy the **whole** key you received by email after purchase; it starts with **`BSTN1.`**
-2. Click **"PRO · 1.000 TL"** on the panel (or go to **Ayarlar › Genel › Lisans › Lisans gir** — *Settings › General › License › Enter license*).
-3. Paste the key into the **Lisans anahtarı** (*License key*) box and click **Etkinleştir** (*Activate*). A **PRO** badge appears next to the logo.
-
-Verification happens on this Mac. No internet is needed and no information is sent.
 
 ## Verifying integrity
 

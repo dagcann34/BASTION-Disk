@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/dagcann34/BASTION-Disk/releases/latest"><b>⬇️ Ücretsiz indir (macOS 14+, Apple Silicon)</b></a>
-  &nbsp;·&nbsp; 🔑 Pro lisans: <a href="https://dagcannural.com">dagcannural.com</a> · Instagram <a href="https://instagram.com/instahaber.io">@instahaber.io</a>
+  &nbsp;·&nbsp; ⭐ Pro: Mac App Store sürümünde, uygulama içinden
 </p>
 
 <p align="center"><img src="img/kapak.png" width="420" alt="BASTION Disk kapak"></p>
@@ -19,25 +19,25 @@
 - **TEMİZLE** — Çöp'e taşı (geri alınabilir) ya da Pro ile kalıcı sil. macOS ana klasörleri korunur, hassas yerlerde ek uyarı, her kalıcı işlem onay ister.
 - **DÖRT KENAR, TEK PANEL** — Panel alt, üst, sol ya da sağ kenarda durur; diğer pencereler (büyütülenler dahil) onun kenarına kadar hizalanır.
 - **39 TEMA, 7 AİLE** — Yazı tipini ve arka planı sen seç, istersen kendi görselini kullan.
-- **AĞ YOK, TELEMETRİ YOK** — Uygulama hiçbir sunucuya bağlanmaz. Lisans bile bu Mac'te, çevrimdışı doğrulanır.
+- **AĞ YOK, TELEMETRİ YOK** — Uygulama hiçbir sunucuya bağlanmaz.
 
 <p align="center"><img src="img/dort-kenar.png" width="380" alt="Dört kenar"> <img src="img/temalar.png" width="380" alt="Temalar"></p>
 
 ## Ücretsiz ve Pro
 
-| | Ücretsiz | Pro — ömür boyu **1.000 TL** |
+Bu sayfadan indirdiğin **BASTION Disk ücretsizdir**. Lisans anahtarı satılmıyor; uygulamadaki "PRO · 1.000 TL" bağlantısı artık kullanılmıyor.
+
+Pro özellikler, Mac App Store'da ücretsiz indirilen ayrı uygulama **BASTION Disk Pro**'nun **içinden**, tek seferlik bir uygulama içi satın almayla açılır (App Store sürümü yayına hazırlanıyor):
+
+| BASTION Disk Pro (Mac App Store) | Ücretsiz | Pro — uygulama içi, tek seferlik |
 |---|---|---|
-| Boş alan göstergesi, gezgin | ✓ | ✓ |
-| Çöp'e taşı, Çöp'ü boşalt | ✓ | ✓ |
-| 4 kenar + pencere hizalama | ✓ | ✓ |
-| Temalar | 4 | 39 |
-| Kalıcı silme, klasör boşaltma, yönetici silmesi | — | ✓ |
-| Xcode simülatör temizliği | — | ✓ |
-| Yazı tipi, tüm arka planlar, kendi görselin | — | ✓ |
-| 1.x güncellemeleri | ✓ | ✓ |
+| Boş alan göstergesi, klasör gezgini, Çöp'e taşı | ✓ | ✓ |
+| Ekran kenarı paneli, menü çubuğu sayacı | ✓ | ✓ |
+| İzlenen klasörler, boyut geçmişi, "ne büyüdü" | — | ✓ |
+| Düşük alan ve büyüme uyarıları | — | ✓ |
+| Tüm temalar, yazı tipleri, arka planlar, kendi görselin | — | ✓ |
 
-İndirdiğin sürüm **ücretsiz sürümdür**; Pro özellikler lisans anahtarıyla aynı uygulamada açılır, yeniden indirme gerekmez.
-
+Satın alma ve geri yükleme Apple üzerinden yapılır (**Unlock Pro…** › **Restore Purchases**). Abonelik değildir; aynı Apple hesabındaki tüm Mac'lerinde geçerlidir.
 ## Kurulum
 
 1. [Releases](https://github.com/dagcann34/BASTION-Disk/releases/latest) sayfasından **`BASTION.Disk.1.4.0.dmg`** (sürükle-bırak) ya da **`BASTION.Disk.1.4.0.pkg`** (kurulum sihirbazı) indir.
@@ -50,14 +50,6 @@
 4. **İzinler (bir kez):** Sistem Ayarları › Gizlilik ve Güvenlik:
    - **Erişilebilirlik** → BASTION Disk'i aç (pencere hizalama için).
    - **Tam Disk Erişimi** → BASTION Disk'i aç (klasörler için tek tek izin sorulmaz).
-
-## Pro lisansı etkinleştirme
-
-1. Satın alınca e-postayla gelen ve **`BSTN1.`** ile başlayan anahtarın **tamamını** kopyala.
-2. Paneldeki **"PRO · 1.000 TL"** yazısına tıkla (ya da **Ayarlar › Genel › Lisans › Lisans gir**).
-3. Anahtarı **Lisans anahtarı** kutusuna yapıştır, **Etkinleştir**'e bas. Logonun yanında **PRO** etiketi belirir.
-
-Doğrulama bu Mac'te yapılır; internet gerekmez, hiçbir bilgi gönderilmez.
 
 ## Bütünlük doğrulama
 
