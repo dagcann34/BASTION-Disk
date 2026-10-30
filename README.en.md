@@ -42,35 +42,29 @@ Pro features unlock **inside** **BASTION Disk Pro**, a separate app that is a fr
 Purchases and restores are handled by Apple (**Unlock Pro…** › **Restore Purchases**). It is not a subscription and works on all your Macs signed in with the same Apple Account.
 ## Installation
 
-1. From the [Releases](https://github.com/dagcann34/BASTION-Disk/releases/latest) page, download **`BASTION.Disk.1.4.1.dmg`** (drag and drop) or **`BASTION.Disk.1.4.1.pkg`** (installer wizard).
-2. DMG: open it and drag **BASTION Disk** into the **Applications** folder. PKG: open it and follow the steps.
-3. **First launch (macOS 15 and later):** The app has not been through Apple notarization yet, so macOS blocks it the first time.
-   - Click **Done** on the warning.
-   - Go to **System Settings › Privacy & Security** and, at the bottom, next to *"BASTION Disk was blocked"*, click **Open Anyway**.
-   - Enter your password / Touch ID, then choose **Open Anyway** again in the dialog. This is needed only once.
-   - On macOS 14, right-clicking the app in Finder › **Open** also works.
-4. **Permissions (once):** System Settings › Privacy & Security:
+1. From the [Releases](https://github.com/dagcann34/BASTION-Disk/releases/latest) page, download **`BASTION.Disk.1.4.1.dmg`**.
+2. Open the DMG, drag **BASTION Disk** into **Applications** and open it from there. The app is signed with Developer ID and notarized by Apple, so no extra approval step is needed.
+3. **Permissions (once):** System Settings › Privacy & Security:
    - **Accessibility** → turn on BASTION Disk (for window snapping).
    - **Full Disk Access** → turn on BASTION Disk (so you are not asked folder by folder).
 
 ## Verifying integrity
 
-You can check in Terminal that the downloaded files are unchanged (download `SHA256SUMS` into the same folder as the two installer files):
+You can check in Terminal that the downloaded files are unchanged (download `SHA256SUMS` into the same folder as the DMG):
 
 ```
 shasum -a 256 -c SHA256SUMS
 ```
 
 ```
-a8a4bbb9577105edd56b2edae36c4679cb52655bab1cb4dced39331bc3392390  BASTION.Disk.1.4.1.dmg
-1a08c5d34197dfc33b25c72dd3ad1672172b1117bb936f215c2f72f34a66d881  BASTION.Disk.1.4.1.pkg
+e0d0ab9c0e2c13eb87b6b52167b38155e2f7132fc46581ea280c979232c2cb94  BASTION.Disk.1.4.1.dmg
 ```
 
 ## Security notes
 
 - No network access, no telemetry. Hardened Runtime is on; the only extra entitlement is sending Finder a command to empty the Trash (Apple Events).
 - The core macOS folders themselves and the system volume cannot be deleted; every permanent action asks for a separate confirmation; admin deletion is done only through macOS's own password dialog.
-- Known limitation: there is no Apple Developer ID signature or notarization yet (which is why "Open Anyway" is needed on first launch).
+- Signed with Developer ID, notarized by Apple and stapled.
 
 ## Uninstalling
 

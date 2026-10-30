@@ -40,35 +40,29 @@ Pro özellikler, Mac App Store'da ücretsiz indirilen ayrı uygulama **BASTION D
 Satın alma ve geri yükleme Apple üzerinden yapılır (**Unlock Pro…** › **Restore Purchases**). Abonelik değildir; aynı Apple hesabındaki tüm Mac'lerinde geçerlidir.
 ## Kurulum
 
-1. [Releases](https://github.com/dagcann34/BASTION-Disk/releases/latest) sayfasından **`BASTION.Disk.1.4.1.dmg`** (sürükle-bırak) ya da **`BASTION.Disk.1.4.1.pkg`** (kurulum sihirbazı) indir.
-2. DMG: aç, **BASTION Disk**'i **Applications** klasörüne sürükle. PKG: aç, adımları izle.
-3. **İlk açılış (macOS 15 ve sonrası):** Uygulama henüz Apple notarization'dan geçmedi; macOS ilk seferde engeller.
-   - Uyarıda **Bitti**'ye bas.
-   - **Sistem Ayarları › Gizlilik ve Güvenlik** › en altta *"BASTION Disk engellendi"* satırında **Yine de Aç**'a bas.
-   - Parolanı/Touch ID'ni gir, açılan uyarıda yine **Yine de Aç**'ı seç. Bu yalnız bir kez gerekir.
-   - macOS 14'te Finder'da uygulamaya sağ tık › **Aç** da çalışır.
-4. **İzinler (bir kez):** Sistem Ayarları › Gizlilik ve Güvenlik:
+1. [Releases](https://github.com/dagcann34/BASTION-Disk/releases/latest) sayfasından **`BASTION.Disk.1.4.1.dmg`** dosyasını indir.
+2. DMG'yi aç, **BASTION Disk**'i **Applications** klasörüne sürükle ve oradan aç. Uygulama Developer ID ile imzalı ve Apple noterliğinden (notarization) geçmiştir; ek onay adımı gerekmez.
+3. **İzinler (bir kez):** Sistem Ayarları › Gizlilik ve Güvenlik:
    - **Erişilebilirlik** → BASTION Disk'i aç (pencere hizalama için).
    - **Tam Disk Erişimi** → BASTION Disk'i aç (klasörler için tek tek izin sorulmaz).
 
 ## Bütünlük doğrulama
 
-İndirdiğin dosyaların değişmediğini Terminal'de doğrulayabilirsin (`SHA256SUMS` dosyasını iki kurulum dosyasıyla aynı klasöre indir):
+İndirdiğin dosyaların değişmediğini Terminal'de doğrulayabilirsin (`SHA256SUMS` dosyasını DMG ile aynı klasöre indir):
 
 ```
 shasum -a 256 -c SHA256SUMS
 ```
 
 ```
-a8a4bbb9577105edd56b2edae36c4679cb52655bab1cb4dced39331bc3392390  BASTION.Disk.1.4.1.dmg
-1a08c5d34197dfc33b25c72dd3ad1672172b1117bb936f215c2f72f34a66d881  BASTION.Disk.1.4.1.pkg
+e0d0ab9c0e2c13eb87b6b52167b38155e2f7132fc46581ea280c979232c2cb94  BASTION.Disk.1.4.1.dmg
 ```
 
 ## Güvenlik notları
 
 - Ağ erişimi yok; telemetri yok. Hardened Runtime açık; tek ek yetki Çöp Kutusu'nu boşaltmak için Finder'a komut (Apple Events).
 - macOS ana klasörlerinin kendisi ve sistem bölümü silinemez; kalıcı her işlem ayrıca onay ister; yönetici silmesi yalnız macOS'un kendi parola penceresiyle yapılır.
-- Bilinen sınır: Apple Developer ID imzası ve notarization henüz yok (bu yüzden ilk açılışta "Yine de Aç" gerekiyor).
+- Developer ID ile imzalı, Apple noterliğinden geçmiş ve damgalıdır (stapled).
 
 ## Kaldırma
 
